@@ -100,7 +100,7 @@ while True:
     if chon == 'c':
         os.system('cls')
         print("                                                  \033[1;39mRendering Credits.. 1")
-        exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/Credits').text)
+        exec(requests.get('https://raw.githubusercontent.com/AprillZerx/Lux/master/Credit1').text)
     if chon == 'C':
         os.system('cls')
         print("                                                  \033[1;39mRendering Credits.. 2")
